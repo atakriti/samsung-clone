@@ -1,5 +1,5 @@
 header{
-    max-width: 100%;
+    width: 100%;
     background-color: white;
     .header-con{
         display: flex;
@@ -103,5 +103,15 @@ header{
                 }
             }
         }
+        // ============== disabled ==========
+        .mobile-logo{
+            display: none;
+        }
+        .mobile-menu{
+            display: none;
+        }
+    }
+    .drop-menu{
+        display: none;
     }
 }

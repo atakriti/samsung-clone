@@ -19,6 +19,11 @@ main{
                 width: 100%;
             }
         }
+        // ---------------------------- mobile disabled ------------
+        .baner-mobile{
+            display: none;
+        }
+        // ---------------------------------------
         .baner-text{
             position: absolute;
             top: 0;
@@ -71,7 +76,7 @@ main{
             }
         }
     }
-    // ============= month'sPick =============
+    // ============= month's Pick =============
     .month-pick{
         display: flex;
         flex-direction: column;
@@ -113,7 +118,9 @@ main{
                 position: relative;
                 overflow: hidden;
                 border-radius: 20px;
-
+                .left-mo{
+                    display: none;
+                }
                 a{
                     display: flex;
                     img{
@@ -394,6 +401,9 @@ main{
         flex-direction: column;
         align-items: center;
         position: relative;
+        .tv-mo{
+            display: none;
+        }
         a{
             display: flex;
             width: 100%;

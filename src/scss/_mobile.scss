@@ -1,0 +1,435 @@
+@media only screen and (max-width:800px) {
+    header{
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        z-index: 4;
+        position: fixed;
+        .header-con{
+            width: 100%;
+            padding:2% 3%;
+            margin: 0;
+            nav{
+                display: none;
+            }
+            .right{
+                display: none;
+            }
+            .mobile-logo{
+                display: block;
+                display: flex;
+                width: 20%;
+                height: 10vw;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .mobile-menu{
+                display: block;
+                font-size: 5vw;
+                
+            }
+            
+        }
+       
+        
+    }
+    // ================= baner ==============
+    main{
+        width: 100%;
+        margin: 0;
+        padding: 7% 3% 0 3%;
+        .baner{
+            .baner-desk{
+                display: none;
+            }
+            .baner-mobile{
+                display: block;
+            }
+            .baner-text{
+                bottom:auto;
+                justify-content: center;
+                .baner-text-con{
+                    align-items: center;
+                    width: 80%;
+                    padding-top: 10%;
+                    h1{
+                        font-size: calc($h1-mo + 1vw);
+                    }
+                    p{
+                        font-size: $h1-mo;
+                        text-align: center;
+                    }
+                    .baner-btn{
+                        flex-direction: column-reverse;
+                        width: 50%;
+                        button{
+                            font-size: 4vw;
+                            margin-bottom: 5%;
+                            padding: 4% 6%;
+                        }
+                    }
+                }
+            }
+        }
+        // =================== month's Pick ==============
+        .month-pick{
+            padding-top: 17%;
+            h1{
+                font-size: $h1-mo;
+            }
+            ul{
+                width: 100%;
+                overflow-x: scroll;
+                white-space: nowrap;
+                li{
+                    margin-right: 6%;
+                    a{
+                        font-size: $p-mo;
+                    }
+                }
+            }
+            .pick-con{
+                flex-wrap: wrap;
+                .left{
+                    width: 100%;
+                    
+                    .p-text{
+                        height: auto;
+                        top: 0;
+                        left: auto;
+                        width: 50%;
+                        height: auto;
+                        padding-top: 5%;
+                        h3{
+                            font-size: calc($mi-mo + 0.4vw);
+                            width: 80%;
+                        }
+                        .text-animation{
+                            small{
+                                font-size: $mi-mo;
+                                width: 100%;
+                            }
+                            button{
+                                font-size: $p-mo;
+                            }
+                        }
+                    }
+                    .left-mo{
+                        display: block;
+                       
+                        
+                    }
+                    .left-desk{
+                        display: none;
+                    }
+                }
+                // ========= right ========
+                .right{
+                    width: 100%;
+                    .one,.two,.three,.four{
+                        h4{
+                            font-size: calc($mi-mo - 0.5vw);
+                        }
+                        .p-text{
+                            h3{
+                                font-size: $mi-mo;
+                            }
+                            .text-animation{
+                                small{
+                                    font-size: $mi-mo;
+                                }
+                                button{
+                                    font-size: $mi-mo;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // ============== mobile ==========
+        .mobile{
+            padding-top: 17%;
+            h1{
+                font-size: $h1-mo;
+            }
+            ul{
+                width: 100%;
+                overflow-x: scroll;
+                margin-bottom: 5%;
+                li{
+                    margin-right: 5%;
+                    a{
+                        font-size: $p-mo;
+                    }
+                }
+            }
+            .mobile-text{
+                width: 80%;
+                h1{
+                    font-size: $h1-mo;
+                }
+                p{
+                    font-size: $p-mo;
+                    text-align: center;
+                }
+                .mobile-btn{
+                    width: 80%;
+                    button{
+                        font-size: $mi-mo;
+                    }
+                }
+            }
+        }
+        // ==================== TV ===============
+        .tv,.home{
+            padding-top: 14%;
+            .tv-desk{
+                display: none;
+            }
+            .tv-mo{
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+            .tv-list,.home-list{
+               top: 10%;
+                h1{
+                    font-size: $h1-mo;
+                }
+                ul{
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow-x: scroll;
+                    padding: 0 3%;
+                    li{
+                        margin-right: 5%;
+                        a{
+                            font-size: $p-mo;
+                        }
+                    }
+                }
+            }
+            // ========= bottom ==========
+            .tv-list-bottom,.home-list-bottom{
+                padding: 10% 0;
+                h1{
+                    font-size: $h1-mo;
+                }
+                p{
+                    font-size: $p-mo;
+                    margin: 3% 0;
+                }
+                .tv-btn,.home-btn{
+                    width: 70%;
+                    button{
+                        font-size: $mi-mo;
+                    }
+                }
+            }
+        }
+        // ================== Explore ============
+        .explore{
+            h1{
+                font-size: $h1-mo;
+            }
+            .explore-con{
+                flex-direction: column;
+                align-items: center;
+                a{
+                    width: 100%;
+                }
+                .questions{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    div{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        p{
+                            font-size: $p-mo;
+                            text-align: center;
+                        }
+                        button{
+                            border: 1px black solid;
+                            border-radius:10px;
+                            font-size: $mi-mo;
+                            width: 40%;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        // ============== Search ===========
+        .search{
+            margin: 10% 0;
+            h1{
+                font-size: $h1-mo;
+            }
+            form{
+                width: 80%;
+                i{
+                    font-size: $p-mo;
+                }
+                input{
+                    font-size: $p-mo;
+                }
+            }
+        }
+        // ==================== drop menu mobile =======
+        #dropMenu{
+            display: block;
+            position: fixed;
+            top: 0;
+            padding-top:20% ;
+            z-index: 2;
+            background-color: white;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            overflow: scroll;
+            animation: drop 2s;
+            ul{
+                text-align: center;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                li{
+                    list-style: none;
+                    margin-bottom: 10%;
+                    border: 1px black solid;
+                    border-radius: 10px;
+                    width: 50%;
+                    transition: 0.7s;
+                    animation: list 3s;
+                    animation-iteration-count: 1;
+                    a{
+                        text-decoration: none;
+                        font-size: $h1-mo;
+                        color: black;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 5% 0;
+                    }
+                    &:hover{
+                        background-color: black;
+                        transition: 0.7s;
+                        a{
+                            color: white;
+                        }
+                    }
+                    // =======
+                    &:nth-child(1){
+                        animation: list 2s;
+                        animation-delay: 0.5s;
+                        
+                    }
+                    &:nth-child(2){
+                        animation: list 2s;
+                        animation-delay: 1s;
+                    }
+                    &:nth-child(3){
+                        animation: list 2s;
+                        animation-delay: 1.5s;
+                    }
+                    &:nth-child(4){
+                        animation: list 2s;
+                        animation-delay: 2s;
+                    }
+                    &:nth-child(5){
+                        animation: list 2s;
+                        animation-delay: 2.5s;
+                    }
+                    &:nth-child(6){
+                        animation: list 2s;
+                        animation-delay: 3s;
+                    }
+                }
+            }
+          
+        }
+        
+    }
+    // ================ footer ============
+    footer{
+        width: 100%;
+        flex-wrap: wrap;
+        display: block;
+        div{
+            width: 100%;
+            span{
+                margin-top: 5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 2%;
+                width: 100%;
+                border: 1px black solid;
+                border-radius: 10px;
+                p{
+                    font-size: calc($mi-mo + 0.4vw);
+                    
+                }
+                .fa-plus{
+                    display: block;
+                    font-size: $h1-mo;
+                }
+                &:hover{
+                    background-color: black;
+                    p{
+                        color: white;
+                    }
+                    .fa-plus{
+                        color: white;
+                    }
+                }
+            }
+            ul{
+                display: none;
+                li{
+                     margin-top: 2%;
+                     padding: 2%;
+                    a{
+                        font-size: $mi-mo;
+                    }
+                    &:hover{
+                        background-color: black;
+                        a{
+                            color: white;
+                        }
+                    }
+                }
+            }
+            &:nth-child(2){
+                border: none;
+            }
+        }
+    }
+    @keyframes drop {
+        from{
+            height: 20%;
+        }
+        to{
+            height: 100%;
+        }
+    }
+    @keyframes list {
+        from{
+            background-color: black;
+           transform: scale(1.2);
+           
+        }
+    }
+}

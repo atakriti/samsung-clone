@@ -4,7 +4,7 @@ footer{
      display: flex;
      justify-content: space-between;
      align-items: baseline;
-    
+    display: none;
     div{
         width: 30%;
         display: flex;
@@ -13,6 +13,9 @@ footer{
         padding: 0 3%;
         span{
             margin-bottom: 2%;
+            .fa-plus{
+                display: none;
+            }
             p{
                 font-size: $p;
             }
@@ -20,6 +23,7 @@ footer{
         ul{
             display: flex;
             flex-direction: column;
+            display: block;
             li{
                 list-style: none;
                 transition: 0.7s;

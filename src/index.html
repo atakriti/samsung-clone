@@ -11,6 +11,7 @@
 <body>
     <header>
         <div class="header-con">
+            <a class="mobile-logo" href="#"><img src="./images/pngegg.png" alt=""></a>
             <nav>
                 <div class="logo">
                     <a href="#"><img src="./images/pngegg.png" alt=""></a>
@@ -38,13 +39,27 @@
                     <i class="fa-solid fa-bars-staggered"></i>
                 </div>
             </div>
+            <i onclick="hamburger()" class="mobile-menu fa-solid fa-bars-staggered"></i>
             
         </div>
+        
     </header>
     <main>
+        <!-- ============ drop menu ============== -->
+        <div id="dropMenu">
+            <ul>
+                <li><a onclick="dropList()" href="#month">Month's Pick</a></li>
+                <li><a onclick="dropList()" href="#mobile">Mobile</a></li>
+                <li><a onclick="dropList()" href="#tv">TV SOUNDS</a></li>
+                <li><a onclick="dropList()" href="#home">Home Appliances</a></li>
+                <li><a onclick="dropList()" href="#search">Search</a></li>
+                <li><a onclick="dropList()" href="#about">About Us</a></li>
+            </ul>
+        </div>
         <!-- ================== baner ============= -->
         <div class="baner">
-            <a href="#"><img src="./images/baner.jpg" alt=""></a>
+            <a class="baner-desk" href="#"><img src="./images/baner.jpg" alt=""></a>
+            <a class="baner-mobile" href="#"><img src="./images/baner-mo.webp" alt=""></a>
             <div class="baner-text">
                 <div class="baner-text-con">
                     <h1>Smart Monitor M8</h1>
@@ -59,7 +74,7 @@
             </div>
         </div>
         <!-- ================ month's Pick =============== -->
-        <div class="month-pick">
+        <div id="month" class="month-pick">
             <h1>This Month's Pick</h1>
             <ul>
                 <li><a href="#">Ramadan Offers</a></li>
@@ -70,7 +85,8 @@
             </ul>
             <div class="pick-con">
                 <div class="left">
-                    <a href="#"><img src="./images/left.webp" alt=""></a>
+                    <a class="left-desk" href="#"><img src="./images/left.webp" alt=""></a>
+                    <a class="left-mo"><img src="./images/left-mo.webp" alt=""></a>
                     <div class="p-text">
                         <h3>Ramadan exclusive Flash Sale</h3>
                        <div class="text-animation">
@@ -84,7 +100,7 @@
                 <div class="right">
                     <!-- one -->
                     <div class="one">
-                        <a href="#"><img src="./images/one.webp" alt=""></a>
+                        <a ><img src="./images/one.webp" alt=""></a>
                         <h4>Hot</h4>
                         <div class="p-text">
                             <h3>Receive up to 40% off in Samsung TVs</h3>
@@ -96,7 +112,7 @@
                     </div>
                     <!-- two -->
                     <div class="two">
-                        <a href="#"><img src="./images/two.webp" alt=""></a>
+                        <a ><img src="./images/two.webp" alt=""></a>
                         <h4>Best seller</h4>
                         <div class="p-text">
                             <h3>Up to 25% off on wearables</h3>
@@ -108,7 +124,7 @@
                     </div>
                     <!-- three -->
                     <div class="three">
-                        <a href="#"><img src="./images/three.webp" alt=""></a>
+                        <a ><img src="./images/three.webp" alt=""></a>
                         <h4>Hot</h4>
                         <div class="p-text">
                             <h3>Get 31% off on the Home Appliances</h3>
@@ -120,7 +136,7 @@
                     </div>
                     <!-- four -->
                     <div class="four">
-                        <a href="#"><img src="./images/four.webp" alt=""></a>
+                        <a ><img src="./images/four.webp" alt=""></a>
                         <h4>Best seller</h4>
                         <div class="p-text">
                             <h3>Save AED 300 on Galaxy A52</h3>
@@ -134,7 +150,7 @@
             </div>
         </div>
         <!-- ============= Mobile-section ================== -->
-        <div class="mobile">
+        <div id="mobile" class="mobile">
             <h1>Mobile</h1>
             <ul>
                 <li><a href="#">Galaxy S22|S22+</a></li>
@@ -154,8 +170,9 @@
             </div>
         </div>
         <!-- ============== TV SOUNDS ================ -->
-        <div class="tv">
-            <a href="#"><img src="./images/NeoQLED_PC.jpeg" alt=""></a>
+        <div id="tv" class="tv">
+            <a class="tv-desk" href="#"><img src="./images/NeoQLED_PC.jpeg" alt=""></a>
+            <a class="tv-mo" href="#"><img src="./images/NeoQLED_MO.webp" alt=""></a>
             <div class="tv-list">
                 <h1>TV & Sounds</h1>
                 <ul>
@@ -175,8 +192,9 @@
             </div>
         </div>
         <!-- =============== Home Appliances ============== -->
-        <div class="home">
-            <a href="#"><img src="./images/home.webp" alt=""></a>
+        <div id="home" class="home">
+            <a class="tv-desk" href="#"><img src="./images/home.webp" alt=""></a>
+            <a class="tv-mo" href="#"><img src="./images/home-mo.webp" alt=""></a>
             <div class="home-list">
                 <h1>Home Appliances</h1>
                 <ul>
@@ -226,7 +244,7 @@
             </div>
         </div>
         <!-- =============== Search ============= -->
-        <div class="search">
+        <div id="search" class="search">
             <h1>Looking for something else?</h1>
             <form action="">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -235,40 +253,47 @@
 
         </div>
     </main>
-    <footer>
+    <footer id="about">
         <!-- one -->
         <div>
-            <span><p>Product & Service</p></span>
-            <ul>
-                <li><a href="#">Smartphones</a></li>
-                <li><a href="#">Tablets</a></li>
-                <li><a href="#">Audio Sound</a></li>
-                <li><a href="#">Watches</a></li>
-                <li><a href="#">Smart Switch</a></li>
-                <li><a href="#">TVs</a></li>
+            <span onclick="btn1()"><p>Product & Service</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list1">
+                <li><a >Smartphones</a></li>
+                <li><a >Tablets</a></li>
+                <li><a >Audio Sound</a></li>
+                <li><a >Watches</a></li>
+                <li><a >Smart Switch</a></li>
+                <li><a >TVs</a></li>
             </ul>
         </div>
         <!-- two -->
         <div>
-            <span><p>Shop</p></span>
-            <ul>
-                <li><a href="#">Offers</a></li>
-                <li><a href="#">Explore</a></li>
-                <li><a href="#">Samsung Care+</a></li>
-                <li><a href="#">Store Locator</a></li>
+            <span onclick="btn2()"><p>Shop</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list2">
+                <li><a >Offers</a></li>
+                <li><a >Explore</a></li>
+                <li><a >Samsung Care+</a></li>
+                <li><a >Store Locator</a></li>
             </ul>
         </div>
         <!-- three -->
         <div>
-            <span><p>Support</p></span>
-            <ul>
-                <li><a href="#">Live Chat</a></li>
-                <li><a href="#">Email Support</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">WhatsApp Us</a></li>
-                <li><a href="#">Community</a></li>
+            <span onclick="btn3()"><p>Support</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list3">
+                <li><a >Live Chat</a></li>
+                <li><a >Email Support</a></li>
+                <li><a >Contact Us</a></li>
+                <li><a >WhatsApp Us</a></li>
+                <li><a >Community</a></li>
             </ul>
         </div>
     </footer>
+    <script src="./javascript/index.js"></script>
 </body>
 </html>
