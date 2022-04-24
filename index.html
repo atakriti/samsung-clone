@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Samsung Clone</title>
+</head>
+<body>
+    <header>
+        <div class="header-con">
+            <a class="mobile-logo" href="#"><img src="./images/pngegg.png" alt=""></a>
+            <nav>
+                <div class="logo">
+                    <a href="#"><img src="./images/pngegg.png" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">TV&AV</a></li>
+                    <li><a href="#">Home Appliances</a></li>
+                    <li><a href="#">Computing</a></li>
+                    <li><a href="#">Displays</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
+            </nav>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">For Business</a></li>
+                </ul>
+                <div class="header-i">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+            </div>
+            <i onclick="hamburger()" class="mobile-menu fa-solid fa-bars-staggered"></i>
+            
+        </div>
+        
+    </header>
+    <main>
+        <!-- ============ drop menu ============== -->
+        <div id="dropMenu">
+            <ul>
+                <li><a onclick="dropList()" href="#month">Month's Pick</a></li>
+                <li><a onclick="dropList()" href="#mobile">Mobile</a></li>
+                <li><a onclick="dropList()" href="#tv">TV SOUNDS</a></li>
+                <li><a onclick="dropList()" href="#home">Home Appliances</a></li>
+                <li><a onclick="dropList()" href="#search">Search</a></li>
+                <li><a onclick="dropList()" href="#about">About Us</a></li>
+            </ul>
+        </div>
+        <!-- ================== baner ============= -->
+        <div class="baner">
+            <a class="baner-desk" href="#"><img src="./images/baner.jpg" alt=""></a>
+            <a class="baner-mobile" href="#"><img src="./images/baner-mo.webp" alt=""></a>
+            <div class="baner-text">
+                <div class="baner-text-con">
+                    <h1>Smart Monitor M8</h1>
+                    <p>watch,play,live in style. <br> 
+                    Everything you need is right in your screen
+                    </p>
+                    <div class="baner-btn">
+                        <button>Learn more</button>
+                        <button>Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ================ month's Pick =============== -->
+        <div id="month" class="month-pick">
+            <h1>This Month's Pick</h1>
+            <ul>
+                <li><a href="#">Ramadan Offers</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">TV&AV</a></li>
+                <li><a href="#">Home Appliances</a></li>
+                <li><a href="#">Computer Monitors</a></li>
+            </ul>
+            <div class="pick-con">
+                <div class="left">
+                    <a class="left-desk" href="#"><img src="./images/left.webp" alt=""></a>
+                    <a class="left-mo"><img src="./images/left-mo.webp" alt=""></a>
+                    <div class="p-text">
+                        <h3>Ramadan exclusive Flash Sale</h3>
+                       <div class="text-animation">
+                            <small>Enjoy the season of gifting with amazing discounts up tp 59% off
+
+                            </small>
+                           <button>Buy now</button>
+                       </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <!-- one -->
+                    <div class="one">
+                        <a ><img src="./images/one.webp" alt=""></a>
+                        <h4>Hot</h4>
+                        <div class="p-text">
+                            <h3>Receive up to 40% off in Samsung TVs</h3>
+                            <div class="text-animation">
+                                <small>Enjoy 0% installment plan and free delivery</small>
+                                <button>Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- two -->
+                    <div class="two">
+                        <a ><img src="./images/two.webp" alt=""></a>
+                        <h4>Best seller</h4>
+                        <div class="p-text">
+                            <h3>Up to 25% off on wearables</h3>
+                           <div class="text-animation">
+                                <small>Just for you this Ramadan</small>
+                               <button>Buy now</button>
+                           </div>
+                        </div>
+                    </div>
+                    <!-- three -->
+                    <div class="three">
+                        <a ><img src="./images/three.webp" alt=""></a>
+                        <h4>Hot</h4>
+                        <div class="p-text">
+                            <h3>Get 31% off on the Home Appliances</h3>
+                            <div class="text-animation">
+                                <small>With 48H delivery and flexible payment options*</small>
+                                <button>Buy now</button> 
+                            </div>                   
+                        </div>
+                    </div>
+                    <!-- four -->
+                    <div class="four">
+                        <a ><img src="./images/four.webp" alt=""></a>
+                        <h4>Best seller</h4>
+                        <div class="p-text">
+                            <h3>Save AED 300 on Galaxy A52</h3>
+                           <div class="text-animation">
+                                <small>Enjoy the season of gifting with amazing discounts up tp 59% off</small>
+                               <button>Buy now</button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ============= Mobile-section ================== -->
+        <div id="mobile" class="mobile">
+            <h1>Mobile</h1>
+            <ul>
+                <li><a href="#">Galaxy S22|S22+</a></li>
+                <li><a href="#">Galaxy A33|A53|A73 5G</a></li>
+                <li><a href="#">Galaxy Tab S8|S8+|S8 Ultra</a></li>
+                <li><a href="#">Galaxy S21 FE 5G</a></li>
+                <li><a href="#">Galaxy Z Fold3 5G</a></li>
+            </ul>
+            <a href="#"><img src="./images/mobile.webp" alt=""></a>
+            <div class="mobile-text">
+                <h1>Galaxy S22|S22+</h1>
+                <p>Get free Galaxy Buds Pro worth AED 739 with every purchase</p>
+                <div class="mobile-btn">
+                    <button>Learn more</button>
+                    <button>Buy now</button>
+                </div>
+            </div>
+        </div>
+        <!-- ============== TV SOUNDS ================ -->
+        <div id="tv" class="tv">
+            <a class="tv-desk" href="#"><img src="./images/NeoQLED_PC.jpeg" alt=""></a>
+            <a class="tv-mo" href="#"><img src="./images/NeoQLED_MO.webp" alt=""></a>
+            <div class="tv-list">
+                <h1>TV & Sounds</h1>
+                <ul>
+                    <li><a href="#">Neo QLED</a></li>
+                    <li><a href="#">QLED</a></li>
+                    <li><a href="#">Lifestyle TVs</a></li>
+                    <li><a href="#">Crystal UHD</a></li>
+                    <li><a href="#">The Freestyle</a></li>
+                </ul>
+            </div>
+            <div class="tv-list-bottom">
+                <h1>Greatness never ends, but evolves</h1>
+                <div class="tv-btn">
+                    <button>Learn more</button>
+                    <button>Buy now</button>
+                </div>
+            </div>
+        </div>
+        <!-- =============== Home Appliances ============== -->
+        <div id="home" class="home">
+            <a class="tv-desk" href="#"><img src="./images/home.webp" alt=""></a>
+            <a class="tv-mo" href="#"><img src="./images/home-mo.webp" alt=""></a>
+            <div class="home-list">
+                <h1>Home Appliances</h1>
+                <ul>
+                    <li><a href="#">BESPOKE</a></li>
+                    <li><a href="#">Washer & Dryer</a></li>
+                    <li><a href="#">AirDresser</a></li>
+                    <li><a href="#">Air Purifier</a></li>
+                    <li><a href="#">Samsung Jet</a></li>
+                </ul>
+            </div>
+            <div class="home-list-bottom">
+                <h1>BESPOKE</h1>
+                <p>Ramadan Exclusives <br> Buy Bespoke refrigerator & get free set of panels <br> along with a cleaning bundle*, all worth AED 3,397 </p>
+                <div class="home-btn">
+                    <button>Learn more</button>
+                    <button>Buy now</button>
+                </div>
+            </div>
+        </div>
+        <!-- ================ Explore ================== -->
+        <div class="explore">
+            <h1>Explore #DoWhatYouCant</h1>
+            <div class="explore-con">
+                <a href="#"><img src="./images/explore.jpg" alt=""></a>
+                <div class="questions">
+                    <!-- one -->
+                    <div>
+                     <p>We Asked, You Answered, We Delivered</p>   
+                     <button>Learn more</button>
+                    </div>
+                    <!-- two -->
+                    <div>
+                      <p>Why I don't miss the movie theaters</p> 
+                     <button>Learn more</button>
+                    </div>
+                    <!-- three -->
+                    <div>
+                        <p>How Bespoke Suits Every Lifestyle</p>
+                     <button>Learn more</button>
+                    </div>
+                    <!-- four -->
+                    <div>
+                        <p>Together for tomorrow Samsung @ CES 2022</p>
+                     <button>Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- =============== Search ============= -->
+        <div id="search" class="search">
+            <h1>Looking for something else?</h1>
+            <form action="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="Search Keyword" type="search" name="search" id="1">
+            </form>
+
+        </div>
+    </main>
+    <footer id="about">
+        <!-- one -->
+        <div>
+            <span onclick="btn1()"><p>Product & Service</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list1">
+                <li><a >Smartphones</a></li>
+                <li><a >Tablets</a></li>
+                <li><a >Audio Sound</a></li>
+                <li><a >Watches</a></li>
+                <li><a >Smart Switch</a></li>
+                <li><a >TVs</a></li>
+            </ul>
+        </div>
+        <!-- two -->
+        <div>
+            <span onclick="btn2()"><p>Shop</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list2">
+                <li><a >Offers</a></li>
+                <li><a >Explore</a></li>
+                <li><a >Samsung Care+</a></li>
+                <li><a >Store Locator</a></li>
+            </ul>
+        </div>
+        <!-- three -->
+        <div>
+            <span onclick="btn3()"><p>Support</p>
+                <i class="fa-regular fa-plus"></i>
+            </span>
+            <ul id="list3">
+                <li><a >Live Chat</a></li>
+                <li><a >Email Support</a></li>
+                <li><a >Contact Us</a></li>
+                <li><a >WhatsApp Us</a></li>
+                <li><a >Community</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

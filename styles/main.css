@@ -1,0 +1,1157 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Rubik:ital@1&display=swap");
+header {
+  width: 100%;
+  background-color: white;
+}
+header .header-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+header .header-con nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+}
+header .header-con nav .logo {
+  width: 20%;
+  height: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-con nav .logo a {
+  display: flex;
+}
+header .header-con nav .logo a img {
+  width: 100%;
+  height: 100%;
+}
+header .header-con nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+}
+header .header-con nav ul li {
+  list-style: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+header .header-con nav ul li a {
+  text-decoration: none;
+  font-size: 0.8vw;
+  white-space: nowrap;
+  color: black;
+}
+header .header-con nav ul li:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+header .header-con nav ul li:hover a {
+  color: white;
+}
+header .header-con .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+header .header-con .right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+}
+header .header-con .right ul li {
+  list-style: none;
+  padding: 1%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+header .header-con .right ul li a {
+  text-decoration: none;
+  font-size: 0.8vw;
+  white-space: nowrap;
+  color: black;
+}
+header .header-con .right ul li:hover {
+  background-color: black;
+  transition: 0.5s;
+}
+header .header-con .right ul li:hover a {
+  color: white;
+}
+header .header-con .right .header-i {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header-con .right .header-i i {
+  font-size: 1.2vw;
+}
+header .header-con .right .header-i .fa-bars-staggered {
+  display: none;
+}
+header .header-con .mobile-logo {
+  display: none;
+}
+header .header-con .mobile-menu {
+  display: none;
+}
+header .drop-menu {
+  display: none;
+}
+
+/**************************************************************
+* User guid :
+* Baner line 8
+* Month's Pick line 71
+* Mobile Section line 307
+* TV Sound line 384
+* Explore line 528
+* Search line 592
+**************************************************************/
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+main .baner {
+  width: 100%;
+  position: relative;
+}
+main .baner a {
+  display: flex;
+}
+main .baner a img {
+  width: 100%;
+}
+main .baner .baner-mobile {
+  display: none;
+}
+main .baner .baner-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+main .baner .baner-text .baner-text-con {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .baner .baner-text .baner-text-con h1 {
+  font-size: 2.5vw;
+}
+main .baner .baner-text .baner-text-con p {
+  font-size: 1.2vw;
+  margin: 5% 0;
+}
+main .baner .baner-text .baner-text-con .baner-btn {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .baner .baner-text .baner-text-con .baner-btn button {
+  font-size: 0.8vw;
+  padding: 3%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+main .baner .baner-text .baner-text-con .baner-btn button:first-child {
+  border-bottom: 2px solid;
+  background-color: transparent;
+}
+main .baner .baner-text .baner-text-con .baner-btn button:last-child {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+main .baner .baner-text .baner-text-con .baner-btn button:last-child:hover {
+  opacity: 0.7;
+}
+main .month-pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0;
+}
+main .month-pick h1 {
+  font-size: 2.5vw;
+}
+main .month-pick ul {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 0;
+}
+main .month-pick ul li {
+  list-style: none;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .month-pick ul li a {
+  text-decoration: none;
+  font-size: 1vw;
+  color: black;
+}
+main .month-pick ul li:first-child {
+  border-bottom: 2px solid;
+}
+main .month-pick .pick-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+main .month-pick .pick-con .left {
+  width: 49%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+main .month-pick .pick-con .left .left-mo {
+  display: none;
+}
+main .month-pick .pick-con .left a {
+  display: flex;
+}
+main .month-pick .pick-con .left a img {
+  width: 100%;
+  height: 100%;
+  transition: 0.7s;
+}
+main .month-pick .pick-con .left .p-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+main .month-pick .pick-con .left .p-text h3 {
+  font-size: 1.2vw;
+  width: 30%;
+  text-align: center;
+  color: white;
+}
+main .month-pick .pick-con .left .p-text .text-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 2% 0;
+  cursor: pointer;
+}
+main .month-pick .pick-con .left .p-text .text-animation small {
+  font-size: 0.8vw;
+  width: 60%;
+  text-align: center;
+  color: white;
+  transition: 0.7s;
+}
+main .month-pick .pick-con .left .p-text .text-animation button {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 0.8vw;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  transform: translateY(300%);
+  transition: 0.7s;
+  font-weight: bold;
+  cursor: pointer;
+}
+main .month-pick .pick-con .left:hover .p-text small {
+  opacity: 0;
+  transition: 0.7s;
+  transform: translateY(-100%);
+}
+main .month-pick .pick-con .left:hover .p-text button {
+  transform: translateY(0);
+  transition: 0.7s;
+}
+main .month-pick .pick-con .left:hover .p-text button:hover {
+  background-color: black;
+  color: white;
+}
+main .month-pick .pick-con .left:hover a img {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+main .month-pick .pick-con .right {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 49%;
+}
+main .month-pick .pick-con .right .one, main .month-pick .pick-con .right .two, main .month-pick .pick-con .right .three, main .month-pick .pick-con .right .four {
+  width: 49%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+main .month-pick .pick-con .right .one a, main .month-pick .pick-con .right .two a, main .month-pick .pick-con .right .three a, main .month-pick .pick-con .right .four a {
+  display: flex;
+}
+main .month-pick .pick-con .right .one a img, main .month-pick .pick-con .right .two a img, main .month-pick .pick-con .right .three a img, main .month-pick .pick-con .right .four a img {
+  width: 100%;
+  height: 100%;
+  transition: 0.7s;
+}
+main .month-pick .pick-con .right .one h4, main .month-pick .pick-con .right .two h4, main .month-pick .pick-con .right .three h4, main .month-pick .pick-con .right .four h4 {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  padding: 2%;
+  background-color: orangered;
+  border-radius: 10px;
+  color: white;
+  font-size: 0.8vw;
+}
+main .month-pick .pick-con .right .one .p-text, main .month-pick .pick-con .right .two .p-text, main .month-pick .pick-con .right .three .p-text, main .month-pick .pick-con .right .four .p-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+main .month-pick .pick-con .right .one .p-text h3, main .month-pick .pick-con .right .two .p-text h3, main .month-pick .pick-con .right .three .p-text h3, main .month-pick .pick-con .right .four .p-text h3 {
+  font-size: 1.2vw;
+  width: 90%;
+  text-align: center;
+  color: white;
+}
+main .month-pick .pick-con .right .one .p-text .text-animation, main .month-pick .pick-con .right .two .p-text .text-animation, main .month-pick .pick-con .right .three .p-text .text-animation, main .month-pick .pick-con .right .four .p-text .text-animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  padding: 2% 0;
+  cursor: pointer;
+}
+main .month-pick .pick-con .right .one .p-text .text-animation small, main .month-pick .pick-con .right .two .p-text .text-animation small, main .month-pick .pick-con .right .three .p-text .text-animation small, main .month-pick .pick-con .right .four .p-text .text-animation small {
+  font-size: 0.8vw;
+  width: 90%;
+  text-align: center;
+  color: white;
+  transition: 0.7s;
+}
+main .month-pick .pick-con .right .one .p-text .text-animation button, main .month-pick .pick-con .right .two .p-text .text-animation button, main .month-pick .pick-con .right .three .p-text .text-animation button, main .month-pick .pick-con .right .four .p-text .text-animation button {
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 0.8vw;
+  padding: 3%;
+  border-radius: 10px;
+  margin-bottom: 3%;
+  transform: translateY(300%);
+  transition: 0.7s;
+  font-weight: bold;
+  cursor: pointer;
+}
+main .month-pick .pick-con .right .one:hover .p-text small, main .month-pick .pick-con .right .two:hover .p-text small, main .month-pick .pick-con .right .three:hover .p-text small, main .month-pick .pick-con .right .four:hover .p-text small {
+  opacity: 0;
+  transition: 0.7s;
+  transform: translateY(-100%);
+}
+main .month-pick .pick-con .right .one:hover .p-text button, main .month-pick .pick-con .right .two:hover .p-text button, main .month-pick .pick-con .right .three:hover .p-text button, main .month-pick .pick-con .right .four:hover .p-text button {
+  transform: translateY(0);
+  transition: 0.7s;
+}
+main .month-pick .pick-con .right .one:hover .p-text button:hover, main .month-pick .pick-con .right .two:hover .p-text button:hover, main .month-pick .pick-con .right .three:hover .p-text button:hover, main .month-pick .pick-con .right .four:hover .p-text button:hover {
+  background-color: black;
+  color: white;
+}
+main .month-pick .pick-con .right .one:hover a img, main .month-pick .pick-con .right .two:hover a img, main .month-pick .pick-con .right .three:hover a img, main .month-pick .pick-con .right .four:hover a img {
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+main .month-pick .pick-con .right .one, main .month-pick .pick-con .right .two {
+  margin-bottom: 2%;
+}
+main .mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .mobile h1 {
+  font-size: 2.5vw;
+}
+main .mobile ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2% 0;
+  width: 70%;
+}
+main .mobile ul li {
+  list-style: none;
+  padding: 1%;
+  white-space: nowrap;
+}
+main .mobile ul li a {
+  font-size: 1vw;
+  color: black;
+  text-decoration: none;
+}
+main .mobile ul li:first-child {
+  border-bottom: 2px black solid;
+}
+main .mobile a {
+  display: flex;
+}
+main .mobile a img {
+  width: 100%;
+  height: 100%;
+}
+main .mobile .mobile-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .mobile .mobile-text h1 {
+  font-size: 2.5vw;
+}
+main .mobile .mobile-text p {
+  font-size: 1.2vw;
+  margin: 2% 0;
+}
+main .mobile .mobile-text .mobile-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+}
+main .mobile .mobile-text .mobile-btn button {
+  font-size: 0.8vw;
+  padding: 5% 7%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+main .mobile .mobile-text .mobile-btn button:first-child {
+  border-bottom: 2px solid;
+}
+main .mobile .mobile-text .mobile-btn button:last-child {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+main .mobile .mobile-text .mobile-btn button:hover {
+  opacity: 0.7;
+}
+main .tv, main .home {
+  margin: 3% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+main .tv .tv-mo, main .home .tv-mo {
+  display: none;
+}
+main .tv a, main .home a {
+  display: flex;
+  width: 100%;
+}
+main .tv a img, main .home a img {
+  width: 100%;
+  height: 100%;
+}
+main .tv .tv-list, main .tv .home-list, main .home .tv-list, main .home .home-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
+}
+main .tv .tv-list h1, main .tv .home-list h1, main .home .tv-list h1, main .home .home-list h1 {
+  font-size: 2.5vw;
+  color: white;
+}
+main .tv .tv-list ul, main .tv .home-list ul, main .home .tv-list ul, main .home .home-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 2%;
+}
+main .tv .tv-list ul li, main .tv .home-list ul li, main .home .tv-list ul li, main .home .home-list ul li {
+  list-style: none;
+  padding: 1%;
+}
+main .tv .tv-list ul li a, main .tv .home-list ul li a, main .home .tv-list ul li a, main .home .home-list ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+main .tv .tv-list ul li:first-child, main .tv .home-list ul li:first-child, main .home .tv-list ul li:first-child, main .home .home-list ul li:first-child {
+  border-bottom: 2px white solid;
+}
+main .tv .home-list h1, main .home .home-list h1 {
+  color: black;
+}
+main .tv .home-list ul li a, main .home .home-list ul li a {
+  color: black;
+}
+main .tv .home-list ul li:first-child, main .home .home-list ul li:first-child {
+  border-bottom: 2px solid;
+}
+main .tv .tv-list-bottom, main .tv .home-list-bottom, main .home .tv-list-bottom, main .home .home-list-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% 0;
+}
+main .tv .tv-list-bottom h1, main .tv .home-list-bottom h1, main .home .tv-list-bottom h1, main .home .home-list-bottom h1 {
+  font-size: 2.5vw;
+  color: white;
+  margin-bottom: 2%;
+}
+main .tv .tv-list-bottom .tv-btn, main .tv .tv-list-bottom .home-btn, main .tv .home-list-bottom .tv-btn, main .tv .home-list-bottom .home-btn, main .home .tv-list-bottom .tv-btn, main .home .tv-list-bottom .home-btn, main .home .home-list-bottom .tv-btn, main .home .home-list-bottom .home-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 17%;
+}
+main .tv .tv-list-bottom .tv-btn button, main .tv .tv-list-bottom .home-btn button, main .tv .home-list-bottom .tv-btn button, main .tv .home-list-bottom .home-btn button, main .home .tv-list-bottom .tv-btn button, main .home .tv-list-bottom .home-btn button, main .home .home-list-bottom .tv-btn button, main .home .home-list-bottom .home-btn button {
+  font-size: 0.8vw;
+  padding: 4% 7%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+}
+main .tv .tv-list-bottom .tv-btn button:first-child, main .tv .tv-list-bottom .home-btn button:first-child, main .tv .home-list-bottom .tv-btn button:first-child, main .tv .home-list-bottom .home-btn button:first-child, main .home .tv-list-bottom .tv-btn button:first-child, main .home .tv-list-bottom .home-btn button:first-child, main .home .home-list-bottom .tv-btn button:first-child, main .home .home-list-bottom .home-btn button:first-child {
+  border-bottom: 2px white solid;
+}
+main .tv .tv-list-bottom .tv-btn button:last-child, main .tv .tv-list-bottom .home-btn button:last-child, main .tv .home-list-bottom .tv-btn button:last-child, main .tv .home-list-bottom .home-btn button:last-child, main .home .tv-list-bottom .tv-btn button:last-child, main .home .tv-list-bottom .home-btn button:last-child, main .home .home-list-bottom .tv-btn button:last-child, main .home .home-list-bottom .home-btn button:last-child {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+main .tv .tv-list-bottom .tv-btn button:hover, main .tv .tv-list-bottom .home-btn button:hover, main .tv .home-list-bottom .tv-btn button:hover, main .tv .home-list-bottom .home-btn button:hover, main .home .tv-list-bottom .tv-btn button:hover, main .home .tv-list-bottom .home-btn button:hover, main .home .home-list-bottom .tv-btn button:hover, main .home .home-list-bottom .home-btn button:hover {
+  opacity: 0.7;
+}
+main .tv .home-list-bottom, main .home .home-list-bottom {
+  padding: 1% 0;
+}
+main .tv .home-list-bottom h1, main .home .home-list-bottom h1 {
+  color: black;
+  margin-bottom: 0;
+}
+main .tv .home-list-bottom p, main .home .home-list-bottom p {
+  font-size: 1.2vw;
+  text-align: center;
+  margin: 0% 0 1% 0;
+}
+main .tv .home-list-bottom .home-btn button, main .home .home-list-bottom .home-btn button {
+  color: black;
+}
+main .tv .home-list-bottom .home-btn button:first-child, main .home .home-list-bottom .home-btn button:first-child {
+  border-bottom: 2px black solid;
+}
+main .tv .home-list-bottom .home-btn button:last-child, main .home .home-list-bottom .home-btn button:last-child {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+main .tv .home-list-bottom .home-btn button:hover, main .home .home-list-bottom .home-btn button:hover {
+  opacity: 0.7;
+}
+main .explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .explore h1 {
+  font-size: 2.5vw;
+}
+main .explore .explore-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+}
+main .explore .explore-con a {
+  display: flex;
+}
+main .explore .explore-con a img {
+  width: 100%;
+  height: 100%;
+}
+main .explore .explore-con .questions {
+  width: 49%;
+}
+main .explore .explore-con .questions div {
+  padding: 4% 0;
+  cursor: pointer;
+}
+main .explore .explore-con .questions div p {
+  font-size: 1.6vw;
+}
+main .explore .explore-con .questions div button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.2vw;
+  border-bottom: 2px solid;
+  display: none;
+  margin-top: 4%;
+  cursor: pointer;
+  padding: 2%;
+  transition: 0.7s;
+}
+main .explore .explore-con .questions div:hover {
+  border-top: 2px solid;
+  border-bottom: 1px solid;
+}
+main .explore .explore-con .questions div:hover button {
+  display: block;
+}
+main .explore .explore-con .questions div:hover button:hover {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+main .search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 0;
+}
+main .search h1 {
+  font-size: 2.5vw;
+}
+main .search form {
+  border: 1px rgb(0, 2, 117) solid;
+  width: 30%;
+  display: flex;
+  border-radius: 30px;
+  margin-top: 3%;
+  padding: 0.6% 2%;
+  background-color: rgb(243, 243, 243);
+}
+main .search form i {
+  padding: 2%;
+  font-size: 1.2vw;
+  width: 20%;
+}
+main .search form input {
+  width: 78%;
+  font-size: 1.2vw;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  display: none;
+}
+footer div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  min-height: 15vw;
+  padding: 0 3%;
+}
+footer div span {
+  margin-bottom: 2%;
+}
+footer div span .fa-plus {
+  display: none;
+}
+footer div span p {
+  font-size: 1.2vw;
+}
+footer div ul {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+footer div ul li {
+  list-style: none;
+  transition: 0.7s;
+}
+footer div ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8vw;
+  display: flex;
+  padding: 1%;
+}
+footer div ul li:hover {
+  background-color: black;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+footer div ul li:hover a {
+  color: white;
+}
+footer div:nth-child(2) {
+  border-right: 1px black solid;
+  border-left: 1px black solid;
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 4;
+    position: fixed;
+  }
+  header .header-con {
+    width: 100%;
+    padding: 2% 3%;
+    margin: 0;
+  }
+  header .header-con nav {
+    display: none;
+  }
+  header .header-con .right {
+    display: none;
+  }
+  header .header-con .mobile-logo {
+    display: block;
+    display: flex;
+    width: 20%;
+    height: 10vw;
+  }
+  header .header-con .mobile-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  header .header-con .mobile-menu {
+    display: block;
+    font-size: 5vw;
+  }
+
+  main {
+    width: 100%;
+    margin: 0;
+    padding: 7% 3% 0 3%;
+  }
+  main .baner .baner-desk {
+    display: none;
+  }
+  main .baner .baner-mobile {
+    display: block;
+  }
+  main .baner .baner-text {
+    bottom: auto;
+    justify-content: center;
+  }
+  main .baner .baner-text .baner-text-con {
+    align-items: center;
+    width: 80%;
+    padding-top: 10%;
+  }
+  main .baner .baner-text .baner-text-con h1 {
+    font-size: 6vw;
+  }
+  main .baner .baner-text .baner-text-con p {
+    font-size: 5vw;
+    text-align: center;
+  }
+  main .baner .baner-text .baner-text-con .baner-btn {
+    flex-direction: column-reverse;
+    width: 50%;
+  }
+  main .baner .baner-text .baner-text-con .baner-btn button {
+    font-size: 4vw;
+    margin-bottom: 5%;
+    padding: 4% 6%;
+  }
+  main .month-pick {
+    padding-top: 17%;
+  }
+  main .month-pick h1 {
+    font-size: 5vw;
+  }
+  main .month-pick ul {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  main .month-pick ul li {
+    margin-right: 6%;
+  }
+  main .month-pick ul li a {
+    font-size: 4vw;
+  }
+  main .month-pick .pick-con {
+    flex-wrap: wrap;
+  }
+  main .month-pick .pick-con .left {
+    width: 100%;
+  }
+  main .month-pick .pick-con .left .p-text {
+    height: auto;
+    top: 0;
+    left: auto;
+    width: 50%;
+    height: auto;
+    padding-top: 5%;
+  }
+  main .month-pick .pick-con .left .p-text h3 {
+    font-size: 3.4vw;
+    width: 80%;
+  }
+  main .month-pick .pick-con .left .p-text .text-animation small {
+    font-size: 3vw;
+    width: 100%;
+  }
+  main .month-pick .pick-con .left .p-text .text-animation button {
+    font-size: 4vw;
+  }
+  main .month-pick .pick-con .left .left-mo {
+    display: block;
+  }
+  main .month-pick .pick-con .left .left-desk {
+    display: none;
+  }
+  main .month-pick .pick-con .right {
+    width: 100%;
+  }
+  main .month-pick .pick-con .right .one h4, main .month-pick .pick-con .right .two h4, main .month-pick .pick-con .right .three h4, main .month-pick .pick-con .right .four h4 {
+    font-size: 2.5vw;
+  }
+  main .month-pick .pick-con .right .one .p-text h3, main .month-pick .pick-con .right .two .p-text h3, main .month-pick .pick-con .right .three .p-text h3, main .month-pick .pick-con .right .four .p-text h3 {
+    font-size: 3vw;
+  }
+  main .month-pick .pick-con .right .one .p-text .text-animation small, main .month-pick .pick-con .right .two .p-text .text-animation small, main .month-pick .pick-con .right .three .p-text .text-animation small, main .month-pick .pick-con .right .four .p-text .text-animation small {
+    font-size: 3vw;
+  }
+  main .month-pick .pick-con .right .one .p-text .text-animation button, main .month-pick .pick-con .right .two .p-text .text-animation button, main .month-pick .pick-con .right .three .p-text .text-animation button, main .month-pick .pick-con .right .four .p-text .text-animation button {
+    font-size: 3vw;
+  }
+  main .mobile {
+    padding-top: 17%;
+  }
+  main .mobile h1 {
+    font-size: 5vw;
+  }
+  main .mobile ul {
+    width: 100%;
+    overflow-x: scroll;
+    margin-bottom: 5%;
+  }
+  main .mobile ul li {
+    margin-right: 5%;
+  }
+  main .mobile ul li a {
+    font-size: 4vw;
+  }
+  main .mobile .mobile-text {
+    width: 80%;
+  }
+  main .mobile .mobile-text h1 {
+    font-size: 5vw;
+  }
+  main .mobile .mobile-text p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  main .mobile .mobile-text .mobile-btn {
+    width: 80%;
+  }
+  main .mobile .mobile-text .mobile-btn button {
+    font-size: 3vw;
+  }
+  main .tv, main .home {
+    padding-top: 14%;
+  }
+  main .tv .tv-desk, main .home .tv-desk {
+    display: none;
+  }
+  main .tv .tv-mo, main .home .tv-mo {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  main .tv .tv-list, main .tv .home-list, main .home .tv-list, main .home .home-list {
+    top: 10%;
+  }
+  main .tv .tv-list h1, main .tv .home-list h1, main .home .tv-list h1, main .home .home-list h1 {
+    font-size: 5vw;
+  }
+  main .tv .tv-list ul, main .tv .home-list ul, main .home .tv-list ul, main .home .home-list ul {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: scroll;
+    padding: 0 3%;
+  }
+  main .tv .tv-list ul li, main .tv .home-list ul li, main .home .tv-list ul li, main .home .home-list ul li {
+    margin-right: 5%;
+  }
+  main .tv .tv-list ul li a, main .tv .home-list ul li a, main .home .tv-list ul li a, main .home .home-list ul li a {
+    font-size: 4vw;
+  }
+  main .tv .tv-list-bottom, main .tv .home-list-bottom, main .home .tv-list-bottom, main .home .home-list-bottom {
+    padding: 10% 0;
+  }
+  main .tv .tv-list-bottom h1, main .tv .home-list-bottom h1, main .home .tv-list-bottom h1, main .home .home-list-bottom h1 {
+    font-size: 5vw;
+  }
+  main .tv .tv-list-bottom p, main .tv .home-list-bottom p, main .home .tv-list-bottom p, main .home .home-list-bottom p {
+    font-size: 4vw;
+    margin: 3% 0;
+  }
+  main .tv .tv-list-bottom .tv-btn, main .tv .tv-list-bottom .home-btn, main .tv .home-list-bottom .tv-btn, main .tv .home-list-bottom .home-btn, main .home .tv-list-bottom .tv-btn, main .home .tv-list-bottom .home-btn, main .home .home-list-bottom .tv-btn, main .home .home-list-bottom .home-btn {
+    width: 70%;
+  }
+  main .tv .tv-list-bottom .tv-btn button, main .tv .tv-list-bottom .home-btn button, main .tv .home-list-bottom .tv-btn button, main .tv .home-list-bottom .home-btn button, main .home .tv-list-bottom .tv-btn button, main .home .tv-list-bottom .home-btn button, main .home .home-list-bottom .tv-btn button, main .home .home-list-bottom .home-btn button {
+    font-size: 3vw;
+  }
+  main .explore h1 {
+    font-size: 5vw;
+  }
+  main .explore .explore-con {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .explore .explore-con a {
+    width: 100%;
+  }
+  main .explore .explore-con .questions {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .explore .explore-con .questions div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .explore .explore-con .questions div p {
+    font-size: 4vw;
+    text-align: center;
+  }
+  main .explore .explore-con .questions div button {
+    border: 1px black solid;
+    border-radius: 10px;
+    font-size: 3vw;
+    width: 40%;
+  }
+  main .search {
+    margin: 10% 0;
+  }
+  main .search h1 {
+    font-size: 5vw;
+  }
+  main .search form {
+    width: 80%;
+  }
+  main .search form i {
+    font-size: 4vw;
+  }
+  main .search form input {
+    font-size: 4vw;
+  }
+  main #dropMenu {
+    display: block;
+    position: fixed;
+    top: 0;
+    padding-top: 20%;
+    z-index: 2;
+    background-color: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    animation: drop 2s;
+  }
+  main #dropMenu ul {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #dropMenu ul li {
+    list-style: none;
+    margin-bottom: 10%;
+    border: 1px black solid;
+    border-radius: 10px;
+    width: 50%;
+    transition: 0.7s;
+    animation: list 3s;
+    animation-iteration-count: 1;
+  }
+  main #dropMenu ul li a {
+    text-decoration: none;
+    font-size: 5vw;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+  }
+  main #dropMenu ul li:hover {
+    background-color: black;
+    transition: 0.7s;
+  }
+  main #dropMenu ul li:hover a {
+    color: white;
+  }
+  main #dropMenu ul li:nth-child(1) {
+    animation: list 2s;
+    animation-delay: 0.5s;
+  }
+  main #dropMenu ul li:nth-child(2) {
+    animation: list 2s;
+    animation-delay: 1s;
+  }
+  main #dropMenu ul li:nth-child(3) {
+    animation: list 2s;
+    animation-delay: 1.5s;
+  }
+  main #dropMenu ul li:nth-child(4) {
+    animation: list 2s;
+    animation-delay: 2s;
+  }
+  main #dropMenu ul li:nth-child(5) {
+    animation: list 2s;
+    animation-delay: 2.5s;
+  }
+  main #dropMenu ul li:nth-child(6) {
+    animation: list 2s;
+    animation-delay: 3s;
+  }
+
+  footer {
+    width: 100%;
+    flex-wrap: wrap;
+    display: block;
+  }
+  footer div {
+    width: 100%;
+  }
+  footer div span {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 10px;
+  }
+  footer div span p {
+    font-size: 3.4vw;
+  }
+  footer div span .fa-plus {
+    display: block;
+    font-size: 5vw;
+  }
+  footer div span:hover {
+    background-color: black;
+  }
+  footer div span:hover p {
+    color: white;
+  }
+  footer div span:hover .fa-plus {
+    color: white;
+  }
+  footer div ul {
+    display: none;
+  }
+  footer div ul li {
+    margin-top: 2%;
+    padding: 2%;
+  }
+  footer div ul li a {
+    font-size: 3vw;
+  }
+  footer div ul li:hover {
+    background-color: black;
+  }
+  footer div ul li:hover a {
+    color: white;
+  }
+  footer div:nth-child(2) {
+    border: none;
+  }
+
+  @keyframes drop {
+    from {
+      height: 20%;
+    }
+    to {
+      height: 100%;
+    }
+  }
+  @keyframes list {
+    from {
+      background-color: black;
+      transform: scale(1.2);
+    }
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*# sourceMappingURL=main.css.map */
