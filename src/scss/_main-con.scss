@@ -600,7 +600,8 @@ main{
             
         }
         form{
-            border: 1px rgb(195, 195, 195) solid;
+            // border: 1px rgb(195, 195, 195) solid;
+            border: 1px rgb(0, 2, 117) solid;
             width: 30%;
             display: flex;
             border-radius: 30px;
@@ -611,7 +612,6 @@ main{
                 padding: 2%;
                 font-size: $p;
                 width: 20%;
-              
             }
             input{
                 width: 78%;
