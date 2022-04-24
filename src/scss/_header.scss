@@ -1,5 +1,5 @@
 header{
-    width: 100%;
+    max-width: 100%;
     background-color: white;
     .header-con{
         display: flex;
@@ -7,15 +7,15 @@ header{
         align-items: center;
         width: 80%;
         margin: 0 auto;
-        border: 1px red solid;
+        
         nav{
             display: flex;
             justify-content: space-between;
             align-items: center;
-             width: 45%;
+          width: 45%;
             .logo{
                 width: 20%;
-                height: 4rem;
+                height: 5vw;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -34,7 +34,6 @@ header{
                 width: 75%;
                 li{
                     list-style: none;
-                    border: 1px red solid;
                     border-radius: 20px;
                     display: flex;
                     justify-content: center;
@@ -42,8 +41,16 @@ header{
                     padding: 1%;
                     a{
                         text-decoration: none;
-                        font-size: min(0.8vw,0.9rem);
+                        font-size: $h-fs;
                         white-space: nowrap;
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: black;
+                        transition: 0.5s;
+                        a{
+                            color: white;
+                        }
                     }
                 }
 
@@ -67,12 +74,19 @@ header{
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    border: 1px red solid;
                     border-radius: 20px;
                     a{
                         text-decoration: none;
-                        font-size: min(0.8vw,0.9rem);
+                        font-size: $h-fs;
                         white-space: nowrap;
+                        color: black;
+                    }
+                    &:hover{
+                        background-color: black;
+                        transition: 0.5s;
+                        a{
+                            color: white;
+                        }
                     }
                 }
             }
@@ -82,7 +96,7 @@ header{
                 justify-content: space-between;
                 align-items: center;
                 i{
-                    font-size: min(1.5vw,1.5rem);
+                    font-size:calc($h-fs + 0.4vw);
                 }
                 .fa-bars-staggered{
                     display: none;
