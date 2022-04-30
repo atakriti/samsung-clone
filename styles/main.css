@@ -135,6 +135,7 @@ main .baner a {
 }
 main .baner a img {
   width: 100%;
+  height: 100%;
 }
 main .baner .baner-mobile {
   display: none;
