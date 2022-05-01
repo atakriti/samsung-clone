@@ -45,6 +45,7 @@ let hamburger = () => {
     let drop = document.getElementById("dropMenu")
     if (drop.style.display == "none") {
         drop.style.display = "block"
+        drop.style.animationName = "drop"
     } else {
         drop.style.animationName = "up"
         setTimeout(() => (drop.style.display = "none"),700)
