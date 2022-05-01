@@ -46,7 +46,8 @@ let hamburger = () => {
     if (drop.style.display == "none") {
         drop.style.display = "block"
     } else {
-        drop.style.display = "none"
+        drop.style.animationName = "up"
+        setTimeout(() => (drop.style.display = "none"),700)
     }
 }
 let dropList = () => {

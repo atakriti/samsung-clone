@@ -1140,6 +1140,14 @@ footer div:nth-child(2) {
       height: 100%;
     }
   }
+  @keyframes up {
+    from {
+      height: 100%;
+    }
+    to {
+      height: 0;
+    }
+  }
   @keyframes list {
     from {
       background-color: black;
